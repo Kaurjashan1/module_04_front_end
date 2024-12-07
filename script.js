@@ -30,7 +30,7 @@ function showError(id, message) {
     const error = document.createElement('span');
     error.textContent = message;
     error.style.color = 'red';
-    field.parentNode.appendChild(error);
+    field.parentNode.appendedChild(error);
 }
 
 function clearErrors() {
